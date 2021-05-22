@@ -1,0 +1,72 @@
+name: smith_resturant
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  carousel_slider: null
+  cupertino_icons: ^1.0.0
+  curved_navigation_bar: ^0.3.7
+  date_time_picker: null
+  dio: null
+  easy_localization: null
+  fluster: null
+  flutter_rating_bar: null
+  flutter_spinkit: ^4.1.2
+  flutter_switch: null
+  fluttertoast: null
+  image_picker: null
+  pin_code_text_field: null
+  platform_date_picker: null
+  pretty_dio_logger: ^1.1.1
+  provider: null
+  queen_validators: null
+  shared_preferences: null
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/images/loogo.PNG"
+  image_path_ios: "assets/images/loogo.PNG"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - lib/Resources/Translations/
+
+  fonts:
+    - family: dinnextl bold
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Bold-2.ttf
+    - family: dinnextl medium
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Medium-2.ttf
+    - family: dinnextl regular
+      fonts:
+        - asset: assets/fonts/ArbFONTS-DINNextLTArabic-Regular-2.ttf
